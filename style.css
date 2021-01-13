@@ -1,0 +1,44 @@
+body #grad1 {
+  font-family: "Prata", serif;
+
+  background: url(skyline.png) transparent no-repeat bottom center fixed;
+  background-color: darkslateblue;
+  background-image: linear-gradient(darkslateblue, lightpink);
+  color: whitesmoke;
+}
+
+html {
+}
+h1 {
+  color: lightskyblue;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+nav {
+  background-color: darkslateblue;
+}
+
+@media print {
+  .divFooter footer {
+    position: fixed;
+    height: 100px; /* put the image height here */
+    width: 100px; /* put the image width here */
+    background-color: lightpink;
+  }
+  img {
+    height: 100%;
+    width: 100%; /* ignore, for demo */
+    bottom: 0;
+    display: flex;
+    justify-content: center; /* horizontal align */
+    background-color: transparent, lightpink;
+  }
+}
+img {
+  height: 100%;
+  width: 100%; /* ignore, for demo */
+  bottom: 0;
+  display: flex;
+  justify-content: center; /* horizontal align */
+  background-color: transparent;
+}
