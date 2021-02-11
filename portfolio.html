@@ -7,7 +7,9 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
-    <title>Index Page</title>
+    <title>Portfolio Page</title>
+    <link
+    rel="stylesheet" href="style.css"/>
 
     <!--Bootstrap Style Sheet-->
 
@@ -19,7 +21,6 @@
     />
   </head>
   <body>
-    <div id="grad1">
     <!-- Include Responsive NavBar-->
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -42,14 +43,17 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="/index.html"
-                >About</a>
+              <a class="nav-link" href="Index.html"
+                >About </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/portfolio.html">Portfolio</a>
+              <a class="nav-link" href="Portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/contact.html">Contact</a>
+              <a class="nav-link" href="Contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Images/pdf_test.pdf">Resume</a>
             </li>
         </div>
       </nav>
@@ -66,7 +70,16 @@
             </div>
         <div class="row">
             <div class="col">
-                <img class="img img-thumbnail" src="http://placehold.it/200x200"alt="">
+              <div class="card" style="width: 18rem;">
+                <img src="Images/codingquiz.gif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Coding Quiz</h5>
+                  <p class="card-text">Quick description of the assignment!</p>
+                  <a href="https://vivianaarenas.github.io/Coding-Quiz/" target="_blank" class="btn btn-info">Deployed App</a>
+                  <a href="https://github.com/vivianaarenas/Coding-Quiz" target="_blank" class="btn btn-info">Github</a>
+                </div>
+              </div>
+            
               </div>
               <div class="col">
                 <img class="img img-thumbnail" src="http://placehold.it/200x200" alt="">
@@ -108,6 +121,5 @@
       integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
       crossorigin="anonymous"
     ></script>
-  </div>
   </body>
 </html>
